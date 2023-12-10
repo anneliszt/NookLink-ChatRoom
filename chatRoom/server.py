@@ -10,6 +10,14 @@ def GUI():
     # set window title
     root.title("NookLink")
     
+    # Creating object of photoimage class 
+    # Image should be in the same folder 
+    # in which script is saved 
+    p1 = PhotoImage(file = 'chatRoom/Animal_Crossing_Leaf.svg.png') 
+    
+    # Setting icon of master window 
+    root.iconphoto(False, p1) 
+    
     # set window size
     root.geometry("400x500")
     
